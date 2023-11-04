@@ -139,3 +139,28 @@ align-items: center;
     color: white;
     text-align: center;
 }
+
+.tv-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 60%;
+    margin-top: 20px;
+
+}
+
+.card-item{
+    height: 300px;
+    width: 200px;
+    border-radius: 16px;
+    padding: 3px;
+}
+
+.tv-cards> .card-item:hover{
+    border: 4px solid gray;
+    border-radius: 16px;
+}
+.card-item > img{
+    border-radius: 5px;
+}
