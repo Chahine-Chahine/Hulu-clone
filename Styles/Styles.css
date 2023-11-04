@@ -20,9 +20,68 @@
     padding: 20px;
 }
 
+.navbar > button{
+    background: transparent;
+    color: #a8afbd;
+    border: 0;
+    transition-duration: 0.4s;
+    padding: 8px;
+}
+
+.navbar > button:hover{
+    background-color: #272c34;
+  color: white;
+  border: 2px;
+  border-radius: 5px;
+  
+}
+
 .logo {
     fill: rgb(0, 237, 130);
     height: 24 px;
     width: 50px;
 }
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.due-basic, .trio-basic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 220px;
+    margin-top: 100px;
+}
+
+.due-basic > img, .trio-basic > img{
+    width: 150px;
+    height: 30%;
+    margin: 10px 20px;
+}
+.due-basic > h3, .trio-basic > h3{
+    color: #00ED82;
+    font-size: 12px;
+}
+
+.due-basic > h2, .trio-basic > h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.due-basic > button, .trio-basic > button{
+    background-color: #00ED82;
+    border: 0;
+    padding: 8px 50px;
+    border-radius: 2px ;
+}
+
 
