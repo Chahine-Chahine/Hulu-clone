@@ -1,0 +1,32 @@
+.section1-wrapper{
+    height: 70%;
+    background-color: aqua;
+}
+
+.header-image{
+    height: 70vh;
+
+}
+
+.header{
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+.header > img{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    height: 18px ;
+    width: 58px;
+    fill: rgb(0, 237, 130);
+}
