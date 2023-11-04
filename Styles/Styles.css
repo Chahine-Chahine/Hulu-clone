@@ -1,32 +1,28 @@
-.section1-wrapper{
-    height: 70%;
-    background-color: aqua;
-}
-
-.header-image{
+.section1-wrapper {
     height: 70vh;
-
-}
-
-.header{
-    width: 300px;
-    height: 200px;
-    background-color: aliceblue;
-}
-
-.header > img{
     position: relative;
 }
 
-.logo{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 2;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-start;
-    height: 18px ;
-    width: 58px;
-    fill: rgb(0, 237, 130);
+.header-image {
+    height: 100%;
+    position: relative;
+    background: url("../Assets/Images/header-cover.jpg") center/cover no-repeat;
 }
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    fill: rgb(0, 237, 130);
+    height: 24 px;
+    width: 50px;
+}
+
