@@ -1,3 +1,4 @@
+/* Start of Section 1*/
 .section1-wrapper {
     height: 70vh;
     position: relative;
@@ -36,6 +37,13 @@
   
 }
 
+.navbar > button{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    font-family: "Graphik Web",sans-serif;
+}
+
 .logo {
     fill: rgb(0, 237, 130);
     height: 24 px;
@@ -69,12 +77,15 @@
 .due-basic > h3, .trio-basic > h3{
     color: #00ED82;
     font-size: 12px;
+    font-family: "Graphik Web",sans-serif;
 }
 
 .due-basic > h2, .trio-basic > h2{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    width: 160px;
     margin-bottom: 20px;
+    font-family: "Graphik Web",sans-serif;
 }
 
 .due-basic > button, .trio-basic > button{
@@ -95,3 +106,4 @@
     margin-top: 10px;
     font-size: 12px;
 }
+/* End of section 1*/
