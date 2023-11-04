@@ -109,7 +109,7 @@
 .section2-wrapper{
     position: relative;
     background-color: black;
-    height: 1200px;
+    height: AUTO;
 }
 
 .section2-header{
@@ -208,7 +208,7 @@ align-items: center;
     text-align: center;
 }
 
-.billboard > button{
+.billboard-button{
     background-color: #00ED82;
     border: 0;
     padding: 8px 25px;
@@ -220,3 +220,21 @@ align-items: center;
     font-size: 10px;
     font-weight: 600;
 }
+
+.billboard > h5 ,a{
+    margin-top: 10px;
+    font-size: 7px;
+    color: grey;
+    text-align: center;
+}
+
+.transparent-button{
+    margin-top: 20px;
+    background-color: transparent;
+    text-decoration: underline;
+    border: 0;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* End of Section 2 */
