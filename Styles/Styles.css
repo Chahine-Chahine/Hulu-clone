@@ -188,12 +188,12 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 95px;
 }
 
 .billboard > h3{
     color: #00ED82;
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 10px;
 }
 
@@ -206,4 +206,17 @@ align-items: center;
 .billboard > p{
     color: white;
     text-align: center;
+}
+
+.billboard > button{
+    background-color: #00ED82;
+    border: 0;
+    padding: 8px 25px;
+    border-radius: 5px ;
+    margin-top: 10px;
+}
+
+.billboard > button > span{
+    font-size: 10px;
+    font-weight: 600;
 }
