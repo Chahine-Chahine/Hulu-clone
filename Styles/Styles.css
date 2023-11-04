@@ -265,12 +265,19 @@ align-items: center;
 
 .title > h1{
     margin-left: 20px;
-    color: white;
+    color: grey;
     font-size: 10px;
+}
+
+.title > h1:hover{
+    color: rgb(102, 100, 100);
 }
 .unique{
     text-decoration: underline;
     text-decoration-thickness: 4px;
+    margin-left: 20px;
+    color: white;
+    font-size: 10px;
 }
 .main-title{
     color: white;
@@ -307,3 +314,12 @@ align-items: center;
     margin: 10px 15px 0 2px;
 }
 
+.text-container > h5{
+    color: grey;
+    margin-top: 10px;
+    font-size: 7px;
+    color: grey;
+    text-align: center;
+}
+
+/* End of section 3 */
