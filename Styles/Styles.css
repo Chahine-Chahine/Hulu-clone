@@ -344,7 +344,7 @@ align-items: center;
     border-bottom: 1px solid grey;
 }
 .header4 > h2{
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 600;
     margin: 40px 0 10px 0;
     
@@ -361,9 +361,9 @@ align-items: center;
     width: 70%;
     height: 170px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    border-bottom: 0.5px solid  grey;
+    border-bottom: 1px solid  grey;
     padding-bottom: 20px;
 }
 .toggle-container{
@@ -411,6 +411,7 @@ align-items: center;
 
 .section4-cards{
     display: flex;
+    position: sticky;
 }
 
 .card{
@@ -519,5 +520,44 @@ align-items: center;
     border-radius: 50%;
   }
 
+.sticky {
+background-color: #040405;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+font-size: 20px;
+z-index: 2;
+}
+
   /* End of section 4 */
-  
+
+.table-container{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    z-index: 1;
+}
+
+table{
+    width: 70%;
+    color: white;
+}
+
+td{ 
+    border-bottom: 1px solid grey;
+    height: 60px;
+}
+
+td > h3{
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    font-size: 8px;
+}
+
+td > img{
+    width: 20px;
+
+}
